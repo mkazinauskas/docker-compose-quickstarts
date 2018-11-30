@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pg-watch-2:
+    image: cybertec/pgwatch2
+    ports:
+     - "3000:3000"
+     - "8080:8080"
